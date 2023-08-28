@@ -8,7 +8,7 @@ function factorial(num) {
   }
 }
 
-const number = -3;
+const number = 3;
 result = factorial(number);
 
 console.log(`The factorial of ${number} is ${result}`);

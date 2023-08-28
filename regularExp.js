@@ -5,7 +5,7 @@ const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 const phoneRegex = /^(\d{1,3}\s?)?(\d{10,15})$/;
 const zipRegex = /^\d{5}(?:-\d{4})?$/;
 
-const testName = "Ram";
+const testName = "Hari";
 const testMidName = "Bahadur";
 const testLastName = "Thapa";
 const testEmail = "xyz@example.com";

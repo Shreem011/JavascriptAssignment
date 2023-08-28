@@ -9,5 +9,5 @@ if (grade >= 80) {
 } else if (grade >= 40 && grade < 50) {
   console.log("The grade is", "Third Division");
 } else {
-  console.log("Fail");
+  console.log("You Fail");
 }
