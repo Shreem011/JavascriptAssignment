@@ -5,25 +5,24 @@
 </head>
 <body>
     <script>
-        // Get a reference to the body element
+     
         const body = document.body;
 
-        // Create the existing div element
         const existingDiv = document.createElement("div");
         existingDiv.textContent = "This is the existing div";
         body.appendChild(existingDiv);
 
-        // Create the button element
+     
         const createButton = document.createElement("button");
         createButton.textContent = "Create Div";
         body.appendChild(createButton);
 
-        // Add a click event listener to the button
+       
         createButton.addEventListener("click", function() {
             const newDiv = document.createElement("div");
             newDiv.textContent = "This is a new div element";
 
-            // Append the new div to the body
+            
             body.appendChild(newDiv);
         });
     </script>
