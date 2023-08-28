@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="displayArea"></div>
+
+    <script>
+        const form = document.getElementById("myForm");
+        const displayArea = document.getElementById("displayArea");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const titleValue = form.title.value;
+            const descriptionValue = form.description.value;
+
+            const resultDiv = document.createElement("div");
+            resultDiv.innerHTML = `<h2>${titleValue}</h2><p>${descriptionValue}</p>`;
+            displayArea.appendChild(resultDiv);
+
+            resultDiv.scrollIntoView({ behavior: "smooth" });
+
+            form.reset();
+        });
+    </script>
+</body>
+</html>
