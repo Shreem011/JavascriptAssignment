@@ -1,3 +1,4 @@
+const size = 7;
 function printDiamond(n) {
   if (n % 2 === 0) {
     n++;
@@ -15,5 +16,4 @@ function printDiamond(n) {
   }
 }
 
-const size = 7;
 printDiamond(size);

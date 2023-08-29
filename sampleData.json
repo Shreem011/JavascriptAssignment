@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "type": "category",
+      "name": "Electronics",
+      "products": [
+        {
+          "id": 1,
+          "name": "Mobile",
+          "price": 20000,
+          "type": "product",
+          "imageUrl": "https://mobile.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Laptop",
+            "price": 80000,
+            "type": "product",
+            "imageUrl": "https://laptop.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Bulb",
+            "price": 300,
+            "type": "product",
+            "imageUrl": "https://bulb.jpeg"
+        }
+      ]
+    },
+
+    {
+        "id": 2,
+        "type": "category",
+        "name": "Clothing",
+        "products": [
+            {
+                "id": 1,
+                "name": "T-Shirt",
+                "price": 20,
+                "type": "product",
+                "imageUrl": "https://tshirt.jpeg"
+              },
+              {
+                "id": 2,
+                "name": "Jeans",
+                "price": 50,
+                "type": "product",
+                "imageUrl": "https://jeans.jpeg"
+              },
+              {
+                "id": 3,
+                "name": "Dress",
+                "price": 40,
+                "type": "product",
+                "imageUrl": "https://dress.jpeg"
+              }
+        ]
+    },
+
+    {
+        "id": 3,
+        "type": "category",
+        "name": "Books",
+        "products": [
+            {
+                "id": 1,
+                "name": "Fiction",
+                "price": 15,
+                "type": "product",
+                "imageUrl": "https://fiction-book.jpeg"
+              },
+              {
+                "id": 2,
+                "name": "Non-Fiction",
+                "price": 20,
+                "type": "product",
+                "imageUrl": "https://non-fiction-book.jpeg"
+              },
+              {
+                "id": 3,
+                "name": "Mystery",
+                "price": 18,
+                "type": "product",
+                "imageUrl": "https://mystery-book.jpeg"
+              }
+        ]
+    }, 
+    
+    {
+        "id": 4,
+        "type": "category",
+        "name": "Home Appliances",
+        "products": [
+          {
+            "id": 1,
+            "name": "Refrigerator",
+            "price": 500,
+            "type": "product",
+            "imageUrl": "https://refrigerator.jpeg"
+          },
+          {
+            "id": 2,
+            "name": "Washing Machine",
+            "price": 350,
+            "type": "product",
+            "imageUrl": "https://washing-machine.jpeg"
+          },
+          {
+            "id": 3,
+            "name": "Microwave Oven",
+            "price": 150,
+            "type": "product",
+            "imageUrl": "https://microwave-oven.jpeg"
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "type": "category",
+        "name": "Beauty",
+        "products": [
+          {
+            "id": 1,
+            "name": "Lipstick",
+            "price": 10,
+            "type": "product",
+            "imageUrl": "https://lipstick.jpeg"
+          },
+          {
+            "id": 2,
+            "name": "Mascara",
+            "price": 15,
+            "type": "product",
+            "imageUrl": "https://mascara.jpeg"
+          },
+          {
+            "id": 3,
+            "name": "Foundation",
+            "price": 18,
+            "type": "product",
+            "imageUrl": "https://foundation.jpeg"
+          }
+        ]
+      }    
+      
+]
+  
